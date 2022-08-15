@@ -11,7 +11,7 @@ const FeaturesCard = ({ name, logo, available }) => {
             alignItems: "center",
             gap: "8px",
             borderRadius: "10px",
-            width: "300px",
+            width: { xs: "100%", sm: "300px" },
             height: "185px",
             py: "32px",
             px: "20px",
