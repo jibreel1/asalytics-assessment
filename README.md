@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# ASAlytics - Coding Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the solution to the [Coding Assessment of ASAalytics](https://asalytics.notion.site/asalytics/Coding-Assessment-9a4efe06095e40fca787e9eca8b9cac0).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+-  [Overview](#overview)
+   -  [The challenge](#the-challenge)
+   -  [Screenshot](#screenshot)
+   -  [Links](#links)
+   -  [Built with](#built-with)
+-  [Author](#author)
+-  [Acknowledgments](#acknowledgments)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The challenge of the assessment was
 
-### `npm test`
+-  Create page with UI like the image above, you can also check the Figma board for the design https://www.figma.com/file/LvSfu5VicspNx58c3EK2el/Untitled?node-id=1%3A1174
+-  Connect to GraphQL server. API is located at https://analytics-api.herokuapp.com/analytics
+-  Explore API via GraphQL interface, and try to come up with query you should use to fetch needed data. You are to display all ASAs on the UI.
+-  Push your solution to Github, deploy on your favourite Hosting Provider
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users should be able to:
 
-### `npm run build`
+-  View the optimal layout depending on their device's screen size
+-  See all the necessary content rendered on the UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![A Screenshot](./screenshot.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+-  Solution URL: [Add solution URL here](https://your-solution-url.com)
+-  Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Built with
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-  Semantic HTML5 markup
+-  CSS custom properties
+-  Flexbox
+-  CSS Grid
+-  React
+-  Material UI
+-  GraphQL
+-  React Query
+-  Jest Testing Lirary
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-  LinkedIn - [@jubrilosunkoya](https://www.linkedin.com/in/jibreel-osunkoya/)
+-  Portfolio - [jbs-blueprint.me/my-portfolio](https://www.jbs-blueprint.me/my-portfolio/)
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I'll like to thank the ASAlytics team for giving me an opportunity to showcase my skills towards this project as I also learnt many things during this project. I'm looking foward to working with you in the future.

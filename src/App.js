@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import gql from "graphql-tag";
+import { useGQLQuery } from "./useGQLQuery";
+import { Box } from "@mui/material";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Navbar from "./components/Navbar";
+import Features from "./components/Features";
+
+import "./App.scss";
+
+const GET_ASALIST = gql`
+   query {
+      asalist {
+         results {
+            name
+            logo
+            available
+            assetId
+         }
+      }
+   }
+`;
+
+const App = () => {
+   const { data, isLoading, error } = useGQLQuery("asalist", GET_ASALIST);
+
+   if (isLoading) return <div>Loading...</div>;
+   if (error) return <div>Something went wrong...</div>;
+
+   return (
+      <Box
+         sx={{
+            mx: { xs: "24px", sm: "48px", lg: "63px" },
+         }}
+      >
+         <Navbar />
+         <Features data={data} />
+      </Box>
+   );
+};
 
 export default App;
