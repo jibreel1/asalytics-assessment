@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Add solution URL here](https://github.com/jibreel1/asalytics-assessment)
--  Live Site URL: [Add live site URL here](https://asa-assessment.netlify.app)
+-  Solution URL: [Click here](https://github.com/jibreel1/asalytics-assessment)
+-  Live Site URL: [Click here](https://asa-assessment.netlify.app)
 
 ### Built with
 
