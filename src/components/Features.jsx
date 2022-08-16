@@ -33,7 +33,7 @@ const Features = ({ data, loading }) => {
                <CircularProgress color="inherit" />
             </Backdrop>
          ) : (
-            <Box mt="106px" mb="64px" className="featureBox">
+            <Box mt="106px" className="featureBox">
                {data?.asalist?.result.map(
                   ({ name, assetId, logo, available }) => (
                      <FeaturesCard

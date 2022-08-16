@@ -3,12 +3,7 @@ import Logo1 from "../assets/logo1.png";
 
 const Navbar = () => {
    return (
-      <Stack
-         direction="row"
-         alignItems="center"
-         justifyContent="space-between"
-         mt="32px"
-      >
+      <Stack direction="row" alignItems="center" justifyContent="space-between">
          <img src={Logo1} alt="logo" className="logo" />
          <Box
             sx={{

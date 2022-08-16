@@ -28,6 +28,8 @@ const App = () => {
       <Box
          sx={{
             mx: { xs: "24px", sm: "48px", lg: "63px" },
+            mt: "32px",
+            mb: "64px",
          }}
       >
          <Navbar />
